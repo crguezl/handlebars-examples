@@ -1,0 +1,23 @@
+body {
+  font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+}
+.result {
+    width: 250px;
+    height: 320px;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    background-color: #eee;
+}
+
+.result img {
+  max-width: 200px;
+  max-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.result h3 {
+  text-align: center;
+}
