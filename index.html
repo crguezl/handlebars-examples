@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <script src="bower_components/handlebars/handlebars.js"></script>
+  <script src="handlebars.runtime.js"></script>
+  <script src="hello.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    var compiledTemplate = Handlebars.templates['hello'];
+    var html = compiledTemplate({ name : 'World' });
+    document.write(html);
+  </script>
+</body>
