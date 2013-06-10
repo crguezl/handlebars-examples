@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <script src="bower_components/handlebars/handlebars.js"></script>
+  </head>
+  <body>
+    <script>
+      var rawTemplate = '<p>Hello {{name}}</p>'; // (step 1)
+      var compiledTemplate = Handlebars.compile(rawTemplate); // (step 2)
+      var html = compiledTemplate({ name : 'World' }); // (step 3)
+      // html content will now be: <p>Hello World</p>
+      document.write(html);
+    </script>
+  </body>
+</html>
